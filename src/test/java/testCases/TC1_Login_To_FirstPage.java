@@ -37,7 +37,7 @@ public class TC1_Login_To_FirstPage {
       Assert.assertTrue(isSuccess, "Sign-in was not successful");
 	  Thread.sleep(5000);
       
-      login.click_popUpButton();
+      //login.click_popUpButton();
 
 	  // Close Browser
 	  driver.close();

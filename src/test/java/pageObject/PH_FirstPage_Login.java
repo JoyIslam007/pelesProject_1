@@ -39,8 +39,8 @@ public class PH_FirstPage_Login {
 	    return driver.findElements(SuccessRing).size() > 0;
 	}
 	
-	public void click_popUpButton() {
-	   if  driver.findElement(PopupButton).click();
+	//public void click_popUpButton() {
+	  // if  driver.findElement(PopupButton).click();
 
-	}
+	//}
 }
