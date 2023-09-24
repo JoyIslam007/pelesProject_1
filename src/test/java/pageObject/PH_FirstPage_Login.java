@@ -22,7 +22,7 @@ public class PH_FirstPage_Login {
 	public void type_UserName(String uname) throws InterruptedException {
 		// Fill Username textbox with input
 		driver.findElement(UsernameField).sendKeys(uname);
-		Thread.sleep(5000);
+		Thread.sleep(6000);
 	}
 	
 //	public void click_SignIn() throws InterruptedException {
