@@ -1,0 +1,26 @@
+// Process 1: Prepare the master branch
+// Local:
+// Now you are in your master branch 
+
+git status
+git pull
+
+// Process 2: Create a new branch
+
+git checkout -b new_branch_name
+git branch // to verify the branch
+
+// Process 3: After you make changes to your branch
+// Make sure everything is running very important
+git add .
+git commit -m " meaning full comment"
+
+// Process 4: Switch to Master Branch
+
+git checkout master
+git pull origin master //pull latest changes from Master from github
+git merge new branch name // Merge new branch name (FB) into master
+git push origin master // Push to Github
+
+
+
